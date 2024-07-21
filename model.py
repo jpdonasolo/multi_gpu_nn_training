@@ -10,7 +10,7 @@ class CNNClassifier(nn.Module):
                 nn.Conv2d( 
                     in_channels=1, 
                     out_channels=16,
-                    kernel_size=6, 
+                    kernel_size=5, 
                     padding="same"
                 ),
                 nn.Dropout(p=.2),
